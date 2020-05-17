@@ -1,0 +1,8 @@
+Trello Board: https://trello.com/b/jVY5BLP5/music-web
+
+
+
+
+
+*****Database Info*****
+MySQL Login Info: Username:DataAdmin Password:Kriegel2021
