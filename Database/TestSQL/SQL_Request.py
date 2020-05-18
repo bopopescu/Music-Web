@@ -3,9 +3,9 @@ from mysql.connector import Error
 
 
 def create_connection(host_name, user_name, user_password):
-    connection = None
+    connect = None
     try:
-        connection = mysql.connector.connect(
+        connect = mysql.connector.connect(
             host=host_name,
             user=user_name,
             passwd=user_password
@@ -14,7 +14,8 @@ def create_connection(host_name, user_name, user_password):
     except Error as e:
         print(f"The error '{e}' occurred")
 
-    return connection
+    return connect
+
 
 
 connection = create_connection("music-web.mysql.database.azure.com", "DataAdmin@music-web", "Kriegel2021")
