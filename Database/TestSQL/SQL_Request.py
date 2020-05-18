@@ -20,3 +20,4 @@ def create_connection(host_name, user_name, user_password):
 
 connection = create_connection("music-web.mysql.database.azure.com", "DataAdmin@music-web", "Kriegel2021")
 
+#mycursor.execute("CREATE DATABASE whyisthisnotworking")
