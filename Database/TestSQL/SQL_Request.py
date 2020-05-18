@@ -1,6 +1,7 @@
 import mysql.connector
 from mysql.connector import Error
 
+
 def create_connection(host_name, user_name, user_password):
     connection = None
     try:
@@ -14,6 +15,7 @@ def create_connection(host_name, user_name, user_password):
         print(f"The error '{e}' occurred")
 
     return connection
+
 
 connection = create_connection("music-web.mysql.database.azure.com", "DataAdmin@music-web", "Kriegel2021")
 
